@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.send('Hello, Docker World!');
 });
 
-app.listen(port, '0.0.0.0', () => {
+app.listen(port, '127.0.0.1', () => {
   console.log(`Server listening on port ${port}`);
 });
